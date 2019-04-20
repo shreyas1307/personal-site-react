@@ -8,24 +8,23 @@ class Projects extends Component {
     projects: []
   };
 
-  componentDidMount() {
-    fetch("https://my-json-server.typicode.com/shreyas1307/projects-api/db")
-      .then(res => res.json())
-      .then(project => {
-        console.log(project.project);
-        this.setState({
-          projects: project.project
-        });
+  fetching = fetch(
+    "https://cors-anywhere.herokuapp.com/https://my-json-server.typicode.com/shreyas1307/projects-api/db"
+  )
+    .then(res => res.json())
+    .then(project => {
+      this.setState({
+        projects: project.project
       });
-  }
+    });
+
   render() {
     return (
       <div className="project-div">
         {this.state.projects.map(proj => {
           return (
-            <div>
+            <div key={proj.id}>
               <Project
-                id={proj.id}
                 name={proj.name}
                 img={proj.img}
                 technologies={proj.technologies}

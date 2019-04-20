@@ -1,13 +1,13 @@
 .name {
   color: #f8f8fb;
   font-weight: 500;
-  margin: 30px 10px;
+  margin: 30px auto;
 }
 
 .proclaim {
   color: #f8f8fb;
   font-weight: 300;
-  margin: 30px 10px;
+  margin: 30px auto;
 }
 
 @media only screen and (min-width: 300px) {
@@ -32,7 +32,7 @@
   .aside {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     min-height: 100px;
   }

@@ -24,6 +24,8 @@ const contact = () => {
               alt="instagram"
             />
           </a>
+          <br />
+          Instagram
         </li>
         <li>
           <a
@@ -33,6 +35,8 @@ const contact = () => {
           >
             <img src={githubLogo} height="75px" width="75px" alt="Github" />
           </a>
+          <br />
+          GitHub
         </li>
         <li>
           <a
@@ -42,6 +46,8 @@ const contact = () => {
           >
             <img src={linkedInLogo} height="75px" width="75px" alt="LinkedIn" />
           </a>
+          <br />
+          LinkedIn
         </li>
       </ul>
 

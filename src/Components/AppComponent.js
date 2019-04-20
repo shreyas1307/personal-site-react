@@ -11,7 +11,6 @@ class AppComponent extends Component {
   };
 
   hasClicked = e => {
-    console.log("Clicked");
     const { name } = e.target;
 
     this.setState({

@@ -20,7 +20,7 @@ class AppComponent extends Component {
   };
   render() {
     return (
-      <div class="AppComponent">
+      <div className="AppComponent">
         <Aside myName={this.state.myName} clickedHandler={this.hasClicked} />
         <Main renderingComponent={this.state.myName} />
       </div>

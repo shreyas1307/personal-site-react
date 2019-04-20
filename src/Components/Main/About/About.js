@@ -4,8 +4,8 @@ import "./About.css";
 
 const about = () => {
   return (
-    <div class="about">
-      <div class="about-div">
+    <div className="about">
+      <div className="about-div">
         <h2>About Me</h2>
         {/* Must edit this About Section */}
         <p>
@@ -16,7 +16,7 @@ const about = () => {
           my daily thoughtflow.
         </p>
       </div>
-      <div class="tech-use">
+      <div className="tech-use">
         <h2>Technologies</h2>
         <ul>
           <li>HTML</li>
@@ -25,7 +25,7 @@ const about = () => {
           <li>ReactJS</li>
         </ul>
       </div>
-      <div class="tech-learn">
+      <div className="tech-learn">
         <h2>Future Plans</h2>
         <ul>
           <li>Redux | Typescript</li>

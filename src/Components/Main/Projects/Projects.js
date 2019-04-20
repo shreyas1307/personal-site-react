@@ -1,7 +1,7 @@
 import React, { Component } from "react";
+import Project from "./Project";
 
-//This will display all projects I have by connecting to my github account
-// and displaying a small preview + source code details
+import "./Project.css";
 
 class Projects extends Component {
   state = {
@@ -20,8 +20,21 @@ class Projects extends Component {
   }
   render() {
     return (
-      <div>
-        <h1> Projects</h1>
+      <div className="project-div">
+        {this.state.projects.map(proj => {
+          return (
+            <div>
+              <Project
+                id={proj.id}
+                name={proj.name}
+                img={proj.img}
+                technologies={proj.technologies}
+                url={proj.url}
+                sourceCode={proj.sourceCode}
+              />
+            </div>
+          );
+        })}
       </div>
     );
   }

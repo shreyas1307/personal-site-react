@@ -1,9 +1,14 @@
+/* Add some Hover properties perhaps */
+
 .about {
   display: flex;
   flex-wrap: wrap;
-  height: 500px;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
+  /* background: #fff; */
+  background: linear-gradient(#051e3e, #251e3e);
+  color: #f8f8fb;
 }
 
 /* About Div */
@@ -13,11 +18,11 @@
   min-height: 250px;
   margin: 30px;
   padding: 15px;
-  border: 2px solid #9e9e9e;
-  border-radius: 5px;
+  border: 2px solid #f8f8fb;
+  border-radius: 10px;
 }
 .about-div > h2 {
-  color: #9e9e9e;
+  color: #f8f8fb;
   font-weight: 300;
   text-decoration: underline;
 }
@@ -33,12 +38,12 @@
   min-height: 250px;
   margin: 30px;
   padding: 15px;
-  border: 2px solid #9e9e9e;
-  border-radius: 5px;
+  border: 2px solid #f8f8fb;
+  border-radius: 10px;
 }
 
 .tech-use > h2 {
-  color: #9e9e9e;
+  color: #f8f8fb;
   font-weight: 300;
   text-decoration: underline;
 }
@@ -57,12 +62,12 @@
   min-height: 250px;
   margin: 30px;
   padding: 15px;
-  border: 2px solid #9e9e9e;
-  border-radius: 5px;
+  border: 2px solid #f8f8fb;
+  border-radius: 10px;
 }
 
 .tech-learn > h2 {
-  color: #9e9e9e;
+  color: #f8f8fb;
   font-weight: 300;
   text-decoration: underline;
 }

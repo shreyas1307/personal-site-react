@@ -7,7 +7,7 @@ import "./Contacts.css";
 
 const contact = () => {
   return (
-    <div class="contact">
+    <div className="contact">
       <h2>Contact Details</h2>
       <h3>Email: shreyas.balachandran@outlook.com</h3>
       <ul>

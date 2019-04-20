@@ -3,7 +3,9 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 500px;
+  min-height: 100vh;
+  background: linear-gradient(#051e3e, #251e3e);
+  color: #f8f8fb;
 }
 .contact > ul {
   padding: 0;
@@ -15,6 +17,6 @@
 }
 
 .contact > ul > li {
-  padding: 50px 10px;
+  padding: 50px 20px;
   margin: 25px 35px;
 }

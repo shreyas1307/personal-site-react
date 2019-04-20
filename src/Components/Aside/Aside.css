@@ -1,18 +1,20 @@
 .name {
-  color: #61dafb;
+  color: #f8f8fb;
   font-weight: 500;
-  margin: auto 10px;
+  margin: 30px 10px;
 }
 
 .proclaim {
-  color: #fff;
+  color: #f8f8fb;
   font-weight: 300;
-  margin: auto 10px;
+  margin: 30px 10px;
 }
 
 @media only screen and (min-width: 300px) {
   .aside {
-    background-color: #282c34;
+    /* background-color: #20232a; */
+    background: #051e3e;
+    border-bottom: 3px solid #f8f8fb;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

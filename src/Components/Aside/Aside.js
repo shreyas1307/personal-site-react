@@ -5,9 +5,9 @@ import "./Aside.css";
 
 const aside = props => {
   return (
-    <div class="aside">
-      <h3 class="name">Shreyas Balachandran</h3>
-      <h3 class="proclaim">Developer | Problem Solver | Strategist</h3>
+    <div className="aside">
+      <h3 className="name">Shreyas Balachandran</h3>
+      <h3 className="proclaim">Developer | Problem Solver | Strategist</h3>
       <Button named={props.myName} onClick={props.clickedHandler} />
     </div>
   );

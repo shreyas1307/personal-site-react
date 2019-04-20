@@ -1,0 +1,89 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About Div */
+
+.about-div {
+  width: 300px;
+  min-height: 250px;
+  margin: 30px;
+  padding: 15px;
+  border: 2px solid #9e9e9e;
+  border-radius: 5px;
+}
+.about-div > h2 {
+  color: #9e9e9e;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.about-div > p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Tech Use  */
+.tech-use {
+  width: 300px;
+  min-height: 250px;
+  margin: 30px;
+  padding: 15px;
+  border: 2px solid #9e9e9e;
+  border-radius: 5px;
+}
+
+.tech-use > h2 {
+  color: #9e9e9e;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.tech-use > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Tech Learn */
+
+.tech-learn {
+  width: 300px;
+  min-height: 250px;
+  margin: 30px;
+  padding: 15px;
+  border: 2px solid #9e9e9e;
+  border-radius: 5px;
+}
+
+.tech-learn > h2 {
+  color: #9e9e9e;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.tech-learn > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  line-height: 1.6;
+}
+
+@media only screen and (min-width: 1182px) {
+  .about-div {
+    order: 1;
+  }
+
+  .tech-learn {
+    order: 0;
+  }
+
+  .tech-learn {
+    order: 2;
+  }
+}

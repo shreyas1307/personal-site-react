@@ -1,9 +1,15 @@
 import React from "react";
+import instagramLogo from "./instagram.png";
+import githubLogo from "./github-logo.png";
+import linkedInLogo from "./linkedin.png";
+
+import "./Contacts.css";
 
 const contact = () => {
   return (
-    <div>
+    <div class="contact">
       <h2>Contact Details</h2>
+      <h3>Email: shreyas.balachandran@outlook.com</h3>
       <ul>
         <li>
           <a
@@ -11,7 +17,12 @@ const contact = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            Instagram
+            <img
+              src={instagramLogo}
+              height="75px"
+              width="75px"
+              alt="instagram"
+            />
           </a>
         </li>
         <li>
@@ -20,7 +31,7 @@ const contact = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            Github
+            <img src={githubLogo} height="75px" width="75px" alt="Github" />
           </a>
         </li>
         <li>
@@ -29,7 +40,7 @@ const contact = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            LinkedIn
+            <img src={linkedInLogo} height="75px" width="75px" alt="LinkedIn" />
           </a>
         </li>
       </ul>
